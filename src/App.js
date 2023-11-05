@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import NavBar from './pages/navbar';
+import FirstP from './pages/page1';
+import SecondP from './pages/page2';
+import ThirdP from './pages/page3';
+import FourthP from './pages/page4';
 
 function App() {
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <FirstP/>
+      <SecondP/>
+      <ThirdP/>
+      <FourthP/>
     </div>
   );
 }
